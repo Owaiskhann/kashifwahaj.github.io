@@ -55,18 +55,20 @@
 	margin-top: -10px;
 	overflow: hidden;
 	height:700px; 
-	
 }
 #logo
 {
-	height: 54px;
-	width: 57px;
+	height: 59px;
+	width: 59px;
 	margin-left: 47%;
 	margin-top: 36px;
 	margin-right:25%;
 	margin-bottom: 87px;
 	background-color: #F6E53A;
-	border-radius: 5px;
+	border-radius: 8px;
+	background: url("logo.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 #header  p
@@ -76,7 +78,7 @@
 	margin-bottom: 50px;
 	font-weight: 700;
 	color: white;
-	font-size: 25px;
+	font-size: 45px;
 	font-family: 'Montserrat', sans-serif;
 }
 #available
@@ -166,6 +168,7 @@
 	margin-top: 40px;
 	margin-left: 35%;
 	color: #605656;
+	font-size: 22px;
 	width: 30%;
 }
 #iuc
@@ -224,14 +227,15 @@ padding-right: 20px;
 padding-left: 20px;
 height: 300px;
 margin-bottom: 70px;
-font-weight: 
+margin-top: 30px; 
 }
 
 #websitesample1{
-	background:url("project-showcase-wedler.png");
-	background-size: auto;
+	background:url("project-showcase-glc.png");
+	background-size:contain;
+	background-repeat:no-repeat;
 	width: 48%;
-	margin-right: 4px;
+	margin-right: 26px;
 }
 
 #info1 #h2
